@@ -1,0 +1,26 @@
+{
+  "name": "alumify",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Alumify - connecting students with alumni and faculty (React + Node + Supabase)",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix client",
+    "dev": "concurrently -k -n api,client \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "node --watch server/index.js",
+    "dev:client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "node server/index.js",
+    "test": "node server/test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}
