@@ -4,4 +4,4 @@ node_modules
 data/db.json
 client/dist
 .vercel
-.DS_Stores
+.DS_Store
