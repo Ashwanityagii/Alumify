@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Alumify
 
 Connect students with alumni and faculty. **React (Vite) + Node/Express + Supabase.**
@@ -48,3 +49,6 @@ The browser never talks to Supabase. Only the Node API holds the service-role ke
 - **Any mode, from the browser:** put `ADMIN_SIGNUP_CODE=your-secret-code` in `.env`, restart the server, open the login page, choose the **Admin** tab, click **Create admin account**, and enter the code. Without that variable the signup endpoint is disabled, so nobody can make themselves admin.
 - **From the terminal:** `ADMIN_EMAIL=you@x.com ADMIN_PASSWORD='long-password' node server/create-admin.js`
 - The server now reads the `.env` file automatically (copy `.env.example` to `.env`).
+=======
+# Alumify
+>>>>>>> 3863df26fe9a5f5fb1ee5d7859213a8fa76b8d8d
